@@ -23,4 +23,4 @@ class PigLatinizer
 		updated_array.join
   end
 
-end 
+end
