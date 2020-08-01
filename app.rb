@@ -15,9 +15,9 @@ class App < Sinatra::Base
    erb :results
  end
 
- get '/' do 
+ get '/' do
 
-   erb :results 
- end 
+   erb :results
+ end
 
 end
