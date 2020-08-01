@@ -4,9 +4,9 @@ require_relative 'models/PigLatinizer'
 
 class App < Sinatra::Base
 
- get '/' do 
+ get '/' do
 
    erb :user_input
- end 
-  
+ end
+
 end
