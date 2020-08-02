@@ -1,5 +1,5 @@
 class PigLatinizer
-  
+
   def converter(user_phrase)
 		new_word = word.downcase.split("")
 		updated_array = new_word.dup #duplicates new_word
