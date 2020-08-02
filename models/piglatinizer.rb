@@ -1,11 +1,6 @@
 class PigLatinizer
-  attr_reader :text
-
-  def initialize(text)
-      @text = text.downcase
-  end
-
-  def converter
+  
+  def converter(user_phrase)
 		new_word = word.downcase.split("")
 		updated_array = new_word.dup #duplicates new_word
 		vowel_array = ["a","e","i","o","u"]
